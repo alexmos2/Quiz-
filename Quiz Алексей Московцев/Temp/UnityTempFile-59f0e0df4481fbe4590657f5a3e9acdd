@@ -1,0 +1,553 @@
+/target:library
+/out:Temp/Unity.PlasticSCM.Editor.dll
+/nowarn:0169
+/nowarn:0649
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+/reference:Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEditor.dll
+/reference:G:/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll
+/reference:G:/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll
+/reference:G:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+/reference:"C:/Quiz/Quiz Алексей Московцев/Library/PackageCache/com.unity.collab-proxy@1.10.2/Lib/Editor/PlasticSCM/unityplastic.dll"
+/reference:"C:/Quiz/Quiz Алексей Московцев/Library/PackageCache/com.unity.collab-proxy@1.10.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+/reference:"C:/Quiz/Quiz Алексей Московцев/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.IO.Compression.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll
+/reference:G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll
+/define:UNITY_2019_4_31
+/define:UNITY_2019_4
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:PLATFORM_ARCH_64
+/define:UNITY_64
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:ENABLE_VIDEO
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_WIN
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_4_6
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssemblyInfo.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetMenu\AssetMenuItems.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetMenu\AssetMenuOperations.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetMenu\AssetMenuRoutingOperations.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetMenu\AssetOperations.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetMenu\AssetsSelection.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetMenu\Dialogs\CheckinDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetMenu\Dialogs\CheckinDialogOperations.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetMenu\ProjectViewAssetSelection.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetOverlays\AssetStatus.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetOverlays\Cache\AssetStatusCache.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetOverlays\Cache\BuildPathDictionary.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetOverlays\Cache\LocalStatusCache.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetOverlays\Cache\LockStatusCache.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetOverlays\Cache\RemoteStatusCache.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetOverlays\Cache\SearchLocks.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetOverlays\DrawAssetOverlay.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetsUtils\AssetsPath.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetsUtils\LoadAsset.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetsUtils\Processor\AssetModificationProcessor.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetsUtils\Processor\AssetPostprocessor.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetsUtils\Processor\AssetsProcessor.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetsUtils\Processor\PlasticAssetsProcessor.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetsUtils\ProjectPath.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetsUtils\RefreshAsset.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AssetsUtils\SaveAssets.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\AutoRefresh.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Beta\CalculateUserBetaProgramSetting.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\CheckWorkspaceTreeNodeStatus.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\CloudProjectDownloader\AutoConfigClientConf.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\CloudProjectDownloader\CloudProjectDownloader.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\CloudProjectDownloader\CommandLineArguments.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\CloudProjectDownloader\DownloadRepositoryOperation.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\CloudProjectDownloader\ParseArguments.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\CollabPlugin.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\ChannelCertificateUiImpl.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\AutoLogin.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\CloudEditionWelcomeWindow.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\CreateOrganizationPanel.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\CreatedOrganizationPanel.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\OrganizationPanel.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\SSOSignUpPanel.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\SignInPanel.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\SignInWithEmailPanel.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\WaitingSignInPanel.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\ConfigurePartialWorkspace.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\CredentialsDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\CredentialsUIImpl.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\EncryptionConfigurationDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\MissingEncryptionPasswordPromptHandler.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\SSOCredentialsDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\TeamEdition\TeamEditionConfigurationWindow.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\ToolConfig.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\TurnOffPlastic\TurnOffPlasticWindow.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Configuration\WriteLogConfiguration.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Developer\CheckinProgress.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Developer\GenericProgress.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Developer\IncomingChangesNotificationPanel.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Developer\ProgressOperationHandler.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Developer\UpdateProgress.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Developer\UpdateReport\UpdateReportDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Developer\UpdateReport\UpdateReportLineListViewItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Developer\UpdateReport\UpdateReportListHeaderState.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Developer\UpdateReport\UpdateReportListView.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\DrawGuiModeSwitcher.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\DrawIncomingChangesNotificationPanel.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\DrawStatusBar.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\EnumExtensions.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\FindWorkspace.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\GetRelativePath.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Gluon\CheckinProgress.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Gluon\IncomingChangesNotificationPanel.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Gluon\ProgressOperationHandler.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Gluon\UpdateProgress.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Gluon\UpdateReport\ErrorListViewItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Gluon\UpdateReport\UpdateReportDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Gluon\UpdateReport\UpdateReportListHeaderState.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Gluon\UpdateReport\UpdateReportListView.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Help\BuildFormattedHelp.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Help\DrawHelpPanel.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Help\HelpData.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Help\HelpFormat.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Help\HelpLink.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Help\HelpLinkData.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Help\HelpPanel.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Help\TestingHelpData.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Inspector\DrawInspectorOperations.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Inspector\InspectorAssetSelection.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\MetaPath.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\NewIncomingChanges.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\PlasticApp.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\PlasticMenuItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\PlasticWindow.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\PlasticWindow\PlasticSCMWindow.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\SetupCloudProjectId.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\SwitchModeConfirmationDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Tool\BringWindowToFront.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Tool\FindTool.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Tool\IsExeAvailable.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Tool\LaunchInstaller.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Tool\LaunchTool.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Tool\ToolConstants.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Avatar\ApplyCircleMask.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Avatar\AvatarImages.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Avatar\GetAvatar.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\BoolSetting.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\CooldownWindowDelayer.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\DockEditorWindow.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\DrawActionButton.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\DrawActionHelpBox.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\DrawSearchField.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\DrawSplitter.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\DrawUserIcon.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\DropDownTextField.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\EditorDispatcher.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\EditorProgressBar.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\EditorProgressControls.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\EditorVersion.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\EditorWindowFocus.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\EnumPopupSetting.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\FindEditorWindow.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\GUIActionRunner.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\GUISpace.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\GetPlasticShortcut.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\GuiEnabled.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\HandleMenuItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Images.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\MeasureMaxWidth.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Message\DrawDialogIcon.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Message\PlasticQuestionAlert.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\NotificationDrawer.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\PlasticDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\PlasticSplitterGUILayout.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Progress\DrawProgressForDialogs.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Progress\DrawProgressForOperations.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Progress\DrawProgressForViews.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Progress\OperationProgressData.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Progress\ProgressControlsForDialogs.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Progress\ProgressControlsForViews.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\ResponseType.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\RunModal.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\ShowWindow.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\SortOrderComparer.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\TabButton.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Tree\DrawTreeViewItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Tree\GetChangesOverlayIcon.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Tree\ListViewItemIds.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Tree\TableViewOperations.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Tree\TreeHeaderColumns.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Tree\TreeHeaderSettings.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\Tree\TreeViewItemIds.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\UIElements\LoadingSpinner.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\UIElements\ProgressControlsForDialogs.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\UIElements\TabView.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\UIElements\UIElementsExtensions.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\UnityConstants.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\UnityEvents.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\UnityMenuItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\UnityPlasticGuiMessage.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\UnityPlasticTimer.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\UnityStyles.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UI\UnityThreadWaiter.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\UnityConfigurationChecker.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\VCSPlugin.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\ViewSwitcher.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Changesets\ChangesetListViewItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Changesets\ChangesetsListHeaderState.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Changesets\ChangesetsListView.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Changesets\ChangesetsSelection.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Changesets\ChangesetsTab.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Changesets\ChangesetsViewMenu.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Changesets\DateFilter.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Changesets\LaunchDiffOperations.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\CreateWorkspace\CreateWorkspaceView.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\CreateWorkspace\CreateWorkspaceViewState.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\CreateWorkspace\Dialogs\CreateRepositoryDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\CreateWorkspace\Dialogs\RepositoriesListHeaderState.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\CreateWorkspace\Dialogs\RepositoriesListView.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\CreateWorkspace\Dialogs\RepositoryExplorerDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\CreateWorkspace\Dialogs\RepositoryListViewItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\CreateWorkspace\DrawCreateWorkspaceView.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\CreateWorkspace\ValidRepositoryName.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Diff\ChangeCategoryTreeViewItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Diff\ClientDiffTreeViewItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Diff\Dialogs\GetRestorePathDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Diff\DiffPanel.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Diff\DiffSelection.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Diff\DiffTreeView.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Diff\DiffTreeViewMenu.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Diff\GetClientDiffInfos.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Diff\MergeCategoryTreeViewItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Diff\UnityDiffTree.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\DownloadPlasticExeWindow.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\FileSystemOperation.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\History\HistoryListHeaderState.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\History\HistoryListView.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\History\HistoryListViewItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\History\HistoryListViewMenu.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\History\HistorySelection.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\History\HistoryTab.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\History\SaveAction.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Developer\ChangeCategoryTreeViewItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Developer\ChangeTreeViewItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Developer\DirectoryConflicts\ConflictResolutionState.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Developer\DirectoryConflicts\DrawDirectoryResolutionPanel.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Developer\IncomingChangesSelection.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Developer\IncomingChangesTab.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Developer\IncomingChangesTreeHeaderState.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Developer\IncomingChangesTreeView.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Developer\IncomingChangesViewMenu.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Developer\IsCurrent.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Developer\IsResolved.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Developer\UnityIncomingChangesTree.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Gluon\ChangeCategoryTreeViewItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Gluon\ChangeTreeViewItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Gluon\Errors\ErrorListViewItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Gluon\Errors\ErrorsListHeaderState.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Gluon\Errors\ErrorsListView.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Gluon\IncomingChangesSelection.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Gluon\IncomingChangesTab.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Gluon\IncomingChangesTreeHeaderState.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Gluon\IncomingChangesTreeView.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Gluon\IncomingChangesViewMenu.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\Gluon\UnityIncomingChangesTree.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\IncomingChanges\IIncomingChangesTab.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\ChangeCategoryTreeViewItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\ChangeTreeViewItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\Dialogs\CheckinConflictsDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\Dialogs\CheckinMergeNeededDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\Dialogs\DependenciesDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\Dialogs\EmptyCheckinMessageDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\Dialogs\FilterRulesConfirmationDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\Dialogs\LaunchCheckinConflictsDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\Dialogs\LaunchDependenciesDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\Dialogs\PendingChangesOptionsDialog.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\DrawCommentTextArea.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\FilesFilterPatternsMenuBuilder.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\PendingChangesMultiColumnHeader.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\PendingChangesSelection.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\PendingChangesTab.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\PendingChangesTab_Operations.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\PendingChangesTreeHeaderState.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\PendingChangesTreeView.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\PendingChangesViewMenu.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\PendingMergeLinks\MergeLinkListViewItem.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\PendingMergeLinks\MergeLinksListView.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\PendingChanges\UnityPendingChangesTree.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Welcome\DownloadAndInstallOperation.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Welcome\GetInstallerTmpFileName.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Welcome\MacOSConfigWorkaround.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\Views\Welcome\WelcomeView.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\WebApi\CredentialsResponse.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\WebApi\PlasticScmRestApiClient.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\WebApi\TokenExchangeResponse.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\WebApi\UnityPackageBetaEnrollResponse.cs"
+"C:\Quiz\Quiz Алексей Московцев\Library\PackageCache\com.unity.collab-proxy@1.10.2\Editor\PlasticSCM\WorkspaceWindow.cs"
